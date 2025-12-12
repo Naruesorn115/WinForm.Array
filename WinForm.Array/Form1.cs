@@ -33,6 +33,8 @@ namespace WinForm.Array
             lCount.Text = "จำนวนสมาชิกข้อมูล :" + numbers.Length;
             lSum.Text = "ผลรวม :" + sum;
             lAvg.Text = "ค่าเฉลี่ย :" + average.ToString("F2", CultureInfo.InvariantCulture);
+            lMax.Text = "ค่าสูงสุด :" + numbers.Max();
+            lMin.Text = "ค่าต่ำสุด :" + numbers.Min();
         }
 
         private void lMin_Click(object sender, EventArgs e)
